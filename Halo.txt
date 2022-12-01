@@ -1,0 +1,20 @@
+
+
+CREATE TABLE `Nutzer2` (
+  `ID` int(11) NOT NULL,
+  `Vorname` varchar(100) DEFAULT NULL,
+  `Nachname` varchar(100) DEFAULT NULL,
+  `Geburtstag` varchar(100) DEFAULT NULL,
+  `EMail` varchar(100) DEFAULT NULL,
+  `Passwort` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+ALTER TABLE `Nutzer2`
+  ADD PRIMARY KEY (`ID`);
+
+
+ALTER TABLE `Nutzer2`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+COMMIT;
+
